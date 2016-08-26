@@ -5,19 +5,35 @@ a{
 ul{
 	list-style: none;
 }
+input, textarea{
+	display: block;
+}
+
 /* Colores de letra */
 .white{
 	color: white;
 }
 .blue{
+	color: rgba(73,155,234,0.5);
+}
+.blue1{
 	color: blue;
+}
+.red{
+	color: red;
 }
 /* MArgin y padding */
 .mt0{
-		padding: 0% 0%;
+		padding: 0% 0% !important;
 }	
+.w{
+	width: 100% !important;
+}
+.mt-5{
+	margin-top: 5%;
+}
                           /* Header */
-                        /* BG image */
+/* BG image */
 .bg-img{
 	background-image: url("../image/large.jpg");
 	max-width: 100%;
@@ -25,7 +41,7 @@ ul{
 }
 .filtro{
 	background-color: rgba(76,76,76,0.5);
-	width: 100%;
+	max-width: 100%;
 	background-size: 100%;
 }
 /* Menu */
@@ -46,4 +62,19 @@ ul{
 	width: 100%;
 	background-size: 100%;
 	padding: 4% 0%;
+}
+                      /* Seccion 1 Nuestros servicios */
+/*Titulo  */
+.ns{
+	font-size: 250%;
+	font-weight: bold;
+    margin: 10% 0%;
+}
+/* Imagenes */
+.position{
+	position: absolute;
+}
+.separador1{
+	margin-top: -6%;
+	margin-left: 45%;
 }
