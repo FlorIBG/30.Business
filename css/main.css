@@ -1,0 +1,49 @@
+/* Universales */
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+/* Colores de letra */
+.white{
+	color: white;
+}
+.blue{
+	color: blue;
+}
+/* MArgin y padding */
+.mt0{
+		padding: 0% 0%;
+}	
+                          /* Header */
+                        /* BG image */
+.bg-img{
+	background-image: url("../image/large.jpg");
+	max-width: 100%;
+	background-size: 100%;
+}
+.filtro{
+	background-color: rgba(76,76,76,0.5);
+	width: 100%;
+	background-size: 100%;
+}
+/* Menu */
+.navbar.navbar-default{
+	background-color: rgba(76,76,76,0);
+	width: 100%;
+	border: none;
+}
+/* Descripcion */
+.descripcion{
+	font-size: 300%;
+	font-weight: bold;
+	padding: 8% 5%;
+}
+/* Prueba gratis */
+.bg-cian{
+	background-color: rgba(73,155,234,0.5);
+	width: 100%;
+	background-size: 100%;
+	padding: 4% 0%;
+}
