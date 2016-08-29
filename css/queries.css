@@ -1,0 +1,117 @@
+@media  screen and (max-width:375px)  {
+	/* el cuadrito del menu */
+	.navbar-toggle{
+		margin-right: -85px;
+		padding: 5px;
+	}
+	/* Descripcion del servicio */
+	.descripcion{
+		font-size: 100%;
+		font-weight: bold;
+		padding: 0% 2%;
+	}
+	/* Lo que va en el cuadro azul */
+	.bg-cian{
+		padding: 0%;
+	}
+	/* h3 prueba gratis */
+	.pg{
+		font-size: 80%;
+	}
+	/* p video gratis */
+	.vg{
+		font-size: 68%;
+	}
+	/* boton de modal */
+	.btn-lg{
+		margin-top: 9%;
+	}
+	/* Seccion1 Nuestros servicios */
+	.separador1{
+		margin-top: -21%;
+		margin-left: 30%;
+	}
+}
+@media  screen and (min-width: 376px) and (max-width:768px)  {
+	/* Margen del navbar */
+	.navbar{
+		margin-bottom: 10px !important;
+	}
+	/* el cuadrito del menu */
+	.navbar-toggle{
+		margin-right: -105px;
+		padding: 5px;
+	}
+	/* Descripcion del servicio */
+	.descripcion{
+		font-size: 100%;
+		font-weight: bold;
+		padding: 0% 2%;
+	}
+	/* Lo que va en el cuadro azul */
+	.bg-cian{
+		padding: 0%;
+	}
+	/* h3 prueba gratis */
+	.pg{
+		font-size: 80%;
+	}
+	/* p video gratis */
+	.vg{
+		font-size: 68%;
+	}
+	/* boton de modal */
+	.btn-lg{
+		margin-top: 9%;
+	}
+	/* Seccion1 Nuestros servicios */
+	.separador1{
+		margin-top: -17%;
+		margin-left: 38%;
+	}
+}
+@media  screen and (min-width: 500px) and (max-width:768px)  {
+	/* Seccion1 Nuestros servicios */
+	.separador1{
+		margin-top: -9%;
+		margin-left: 40%;
+	}
+}
+@media  screen and (min-width: 768px) and (max-width:1023px)  {
+	/* Margen del navbar */
+	.navbar{
+		margin-bottom: 10px !important;
+	}
+	/* el cuadrito del menu */
+	.navbar-toggle{
+		margin-right: -105px;
+		padding: 5px;
+	}
+	/* Descripcion del servicio */
+	.descripcion{
+		font-size: 100%;
+		font-weight: bold;
+		padding: 0% 2%;
+	}
+	/* Lo que va en el cuadro azul */
+	.bg-cian{
+		padding: 0%;
+	}
+	/* h3 prueba gratis */
+	.pg{
+		font-size: 80%;
+	}
+	/* p video gratis */
+	.vg{
+		font-size: 68%;
+	}
+	/* boton de modal */
+	.btn-lg{
+		margin-top: 9%;
+	}
+	/* Seccion1 Nuestros servicios */
+	.separador1{
+		margin-top: -17%;
+		margin-left: 38%;
+	}
+}

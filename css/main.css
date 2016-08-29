@@ -11,6 +11,9 @@ nav ul{
 input, textarea{
 	display: block;
 }
+hr{
+	position: relative;
+}
 
 /* Colores de letra */
 .white{
@@ -44,10 +47,11 @@ input, textarea{
 	background-image: url("../image/large.jpg");
 	max-width: 100%;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 .filtro{
 	background-color: rgba(76,76,76,0.5);
-	max-width: 100%;
+	width: 100%;
 	background-size: 100%;
 }
 /* Menu */
@@ -92,6 +96,13 @@ input, textarea{
 .movericon{
 	margin: 33% 34%;
 }
+/* Seccion parte del video ejemplo de */
+iframe{
+	width:100%;
+	height:100%;
+	frameborder:0; 
+	allowfullscreen
+}
 /* Imagenes */
 .position{
 	position: absolute;
@@ -120,9 +131,14 @@ input, textarea{
 .size-color{
 	font-size: 180%;
 	color: white;
-	margin: 30%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
                                 /* Footer */
 .bg-black{
 	background-color: black;
+}
+.movericonsm{
+	margin-left: 115%;
 }
