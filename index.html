@@ -35,7 +35,7 @@
 						<div class="collapse navbar-collapse navbar-ex6-collapse navbar-right">
 						    <ul class="nav navbar-nav">
 							    <li>
-							    	<a href="#">
+							    	<a href="#nuestrosservicios">
 							    		<span class="white">¿Qué me ofrece?</span>
 							    	</a>
 							    </li>
@@ -45,12 +45,12 @@
 							    	</a>
 							    </li>
 							    <li>
-							    	<a href="#">
+							    	<a href="#usar">
 							    		<span class="white">¿Por qué usarlo?</span>
 							    	</a>
 							    </li>
 							    <li>
-							    	<a href="#">
+							    	<a href="#contactanos">
 							    		<span class="white">Contáctanos</span>
 							    	</a>
 							    </li>
@@ -92,8 +92,9 @@
 											<span >Dejame tu URL</span>
 											<span class="red">*</span>
 											<textarea  rows="4" cols="50" required="autofocus"></textarea>
-											<input class="
-											btn btn-sm btn-primary" type="submit" name="Enviar">
+											<a href="contact.html">
+												<input class="btn btn-sm btn-primary" type="submit" name="Enviar">	
+											</a>
 										</form>
 									</div>
 								<!-- Footer de la ventana -->
@@ -115,25 +116,33 @@
 			</div>
 		</header>
 		<section>
-			<div class="container">
+			<div class="container">  
 				<div class="row">
 					<div class="col-lg-12">
-						<h3 class="blue ns text-center">Nuestros servicios</h3>
+						<a name="nuestrosservicios">
+							<h3 class="blue ns text-center">Nuestros servicios</h3>
+						</a>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-4">
-						<img class="icon-video center-block">
+						<div class="circulo center-block">
+							<span class="icon-video color-size position movericon" id="video"></span>
+						</div>
 						<h4 class="text-center blue1">Pruebalo gratis</h4>
 						<p class="text-center">Obtén un primer video screencast de un usuario navegando tu página.</p>
 					</div>
 					<div class="col-lg-4">
-						<img src="image/icon/" alt="relo">
+						<div class="circulo center-block">
+							<span class="icon-clock color-size position movericon"></span>
+						</div>
 						<h4 class="text-center blue1">Compra el servicio completo</h4>
 						<p class="text-center">Si te gustó: compra nuestro servicio completo que incluye 7 videos y feedback.</p>
 					</div>
 					<div class="col-lg-4">
-						<img src="image/icon/" alt="copiar">
+						<div class="circulo center-block">
+							<span class="icon-documents color-size position movericon"></span>
+						</div>
 						<h4 class="text-center blue1">Obten el resultado en 1 día.</h4>
 						<p class="text-center">Te haremos llegar los videos y el feedback completo el mismo día.</p>
 					</div>
@@ -141,12 +150,12 @@
 				<div class="row mt-5">
 					<div class="col-lg-12">
 						<hr>
-						<img class="position img-responsive separador1" src="image/separador.png" alt="separador">
+						<img class="position img-responsive separador1 animated infinite swing" src="image/separador.png" alt="separador">
 					</div>		
 				</div>
 			</div>
 		</section>
-		<section>
+		<section> <!--  Parte en la que va el video -->
 			<div class="container">
 				<div class="row mt-5">
 					<div class="col-lg-6">
@@ -164,7 +173,7 @@
 						<img src="image/flecha.png" alt="flecha">
 					</div>
 					<div class="col-lg-6">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
+						<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="row">
@@ -172,24 +181,29 @@
 						<hr>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-6">
-						<img src="image/icon/.png" alt="lapiz">
-						<img src="image/icon/.png" alt="herramientas">
-						<img src="image/icon/.png" alt="lupa">
-						<img src="image/icon/.png" alt="descargar">
+				<div class="row">	
+					<div class="col-lg-6 background-img-responsive bg-computadora">
+						<div class="azul">
+							<span class="icon-pencil size-color position"></span>
+						</div>
+						<div class="azul">
+							<span class="icon-tools-2 size-color position"></span>
+						</div>
+						<div class="azul">
+							<span class="icon-magnifying-glass size-color position"></span>
+						</div>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 ml-5">
 						<div class="row">
 							<div class="col-lg-12">
 								<h3>Lo quiero ¿Qué hago?</h3>
-								<h4>Paso 1: envianos tu link</h4>
+								<h4 class="blue">Paso 1: envianos tu link</h4>
 								<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>	
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-lg-12">
-								<h4>Paso 2: describe a tu público objetivo</h4>
+								<h4 class="blue">Paso 2: describe a tu público objetivo</h4>
 								<p>Describe las acciones que quieres que evaluemos por ejemplo:</p>	
 								<ul>
 									<li>A primera vista de ¿Qué crees que trata la página?</li>
@@ -201,23 +215,34 @@
 						</div>
 						<div class="row">
 							<div class="col-lg-12">
-								<h4>Paso 3: recibe un video y el feedback completo.</h4>
+								<h4 class="blue">Paso 3: recibe un video y el feedback completo.</h4>
 								<p>Recibe un combo de 7 videos y un informe detallado con las captaciones de usabilidad de tu producto.</p>
 							</div>	
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<hr>
+					<div class="col-lg-12">
+						<hr>
+						<img class="position img-responsive separador1 animated infinite swing" src="image/separador.png" alt="separador">
+					</div>		
 				</div>
 			</div>
 		</section>
 		<section>
 			<div class="container">
-				<div class="row">
+				<div class="row mt-5">
 					<div class="col-lg-6">
-						<h3>Por qué usar </h3>
-						<img src="image/logo-2.png" alt="logo">
+						<div class="row">
+							<div class="col-lg-6 text-right blue">
+								<a name="usar">
+									<h3>Por qué usar </h3>
+								</a>
+							</div>
+							<div class="col-lg-6">
+								<img class="img-responsive " src="image/logo-2.jpg" alt="logo">
+							</div>
+						</div>
 						<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con User Testing 360, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con User Testing 360 podrás entender:</p>
 						<ul>
 							<li>¿Cómo tu público objetivo verdaderamente usa tu producto?</li>
@@ -228,7 +253,7 @@
 						<span>te ayudará a responder estas preguntas y muchas más. Es el toque final perfecto para tu página o producto digital.</span> 
 					</div>
 					<div class="col-lg-6">
-						<img src="image/logo-2.png" alt="logo">
+						<img class="img-responsive" src="image/banner.jpg" alt="banner">
 					</div>
 				</div>
 			</div>
@@ -284,17 +309,23 @@
 				</div>
 			</div>
 		</section>
-		<footer>
+		<footer class="bg-black">
 			<div class="container">
 				<div class="row mt-5">
 					<div class="col-lg-6">
-						<p>Escribenos a:</p>
+						<a name="contactanos">
+							<p class="white">Escribenos a:</p>
+						</a>
 						<a href="#"><span>experienciadeusuario.lab@gmail.com</span></a>
-						<p>telef: <b>989637925</b></p>
+						<p class="white">telef: <b>989637925</b></p>
 					</div>
-					<div class="col-lg-6">
-						<img src="image/icon/.png" alt="facebook">
-						<img src="image/icon/.png" alt="twitter">
+					<div class="col-lg-6 text-left">
+						<a href="facebook.com">
+							<span class="icon-facebook color-size"></span>
+						</a>
+						<a href="twitter.com">
+							<span class="icon-twitter color-size"></span>
+						</a>
 						<p><b>Copyright &reg 2015-User Testing 360</b></p>
 					</div>
 				</div>
